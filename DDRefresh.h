@@ -13,18 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DDRefresh : NSObject
 
-+ (MJRefreshGifHeader *)header;
-
-+ (MJRefreshAutoGifFooter *)footer;
-
-
-+ (MJRefreshGifHeader *)headerWithRefreshingTarget:(id)target refreshingAction:(SEL)action;
-
-+ (MJRefreshAutoGifFooter *)footerWithRefreshingTarget:(id)target refreshingAction:(SEL)action;
 
 @end
-
-
-
 
 NS_ASSUME_NONNULL_END
